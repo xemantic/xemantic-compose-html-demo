@@ -6,7 +6,7 @@ kotlin = "2.2.0"
 
 xemanticKotlinTest = "1.9.0"
 
-# TODO put your dependencies here
+# Project dependencies
 
 versionsPlugin = "0.52.0"
 dokkaPlugin = "2.0.0"

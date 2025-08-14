@@ -14,10 +14,8 @@
  * limitations under the License.
  */
 
-// TODO replace with your package
-package com.xemantic.template.kotlin.multiplatform
+package com.xemantic.compose.html.demo
 
-// TODO replace with your code
 public object Foo {
     public const val BAR: String = "buzz"
 }

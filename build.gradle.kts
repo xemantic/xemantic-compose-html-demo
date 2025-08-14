@@ -22,12 +22,10 @@ plugins {
     alias(libs.plugins.xemantic.conventions)
 }
 
-// TODO change the group
-group = "com.xemantic.template"
+group = "com.xemantic.compose.html.demo"
 
-// TODO fill up the details
 xemantic {
-    description = "A template repository for Xemantic's Kotlin multiplatform projects"
+    description = "A demo project of Jetpack Compose HTML styled with Beer CSS"
     inceptionYear = 2025
     license = License.APACHE
     developer(
@@ -56,9 +54,6 @@ repositories {
 
 kotlin {
 
-    // TODO remove for a non-library project
-    explicitApi()
-
     compilerOptions {
         apiVersion = kotlinTarget
         languageVersion = kotlinTarget
@@ -84,22 +79,16 @@ kotlin {
     js {
         browser()
         nodejs()
-        // TODO remove for a non-library project
-        binaries.library()
     }
 
     wasmJs {
         browser()
         nodejs()
         d8()
-        // TODO remove for a non-library project
-        binaries.library()
     }
 
     wasmWasi {
         nodejs()
-        // TODO remove for a non-library project
-        binaries.library()
     }
 
     // native, see https://kotlinlang.org/docs/native-target-support.html
