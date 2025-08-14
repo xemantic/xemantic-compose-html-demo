@@ -6,7 +6,6 @@ import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 import org.jetbrains.kotlin.gradle.dsl.KotlinVersion
 import org.jetbrains.kotlin.gradle.plugin.KotlinPlatformType
-import org.jetbrains.kotlin.gradle.swiftexport.ExperimentalSwiftExportDsl
 import org.jetbrains.kotlin.gradle.targets.jvm.KotlinJvmTarget
 import org.jreleaser.model.Active
 
@@ -118,8 +117,6 @@ kotlin {
     mingwX64()
     watchosDeviceArm64()
 
-    @OptIn(ExperimentalSwiftExportDsl::class)
-    swiftExport {}
 
     sourceSets {
 
