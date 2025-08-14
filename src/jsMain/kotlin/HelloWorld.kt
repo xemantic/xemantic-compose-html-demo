@@ -16,10 +16,10 @@
 
 package com.xemantic.compose.html.demo
 
-public object Foo {
-    public const val BAR: String = "buzz"
+object Foo {
+    const val BAR: String = "buzz"
 }
 
-public fun main() {
+fun main() {
     print("Hello World!")
 }
